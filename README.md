@@ -24,6 +24,8 @@ multithreaded_web_server/
 
 └── README.md
 
+NOTE: For macOS users using eclipse, if putting server.h in the inlcude folder does not work, keep it in .src.
+
 - **CMakeLists.txt**: Configuration file for building the project with CMake.
 - **include/server.h**: Header file declaring the `Server` class.
 - **src/main.cpp**: Main entry point of the application.
