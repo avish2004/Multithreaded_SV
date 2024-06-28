@@ -10,14 +10,18 @@ This project implements a multithreaded web server in C++. The server is designe
 I have the project directory organized as follows:
 multithreaded_web_server/
 ├── CMakeLists.txt
+
 ├── include/
 │   └── server.h
+
 ├── src/
 │   ├── main.cpp
 │   └── server.cpp
+
 ├── static/
 │   ├── index.html
 │   └── 404.html
+
 └── README.md
 
 - **CMakeLists.txt**: Configuration file for building the project with CMake.
