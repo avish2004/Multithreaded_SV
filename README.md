@@ -6,23 +6,7 @@ Skills Demonstrated: Multithreading, Network Programming, Sockets, HTTP Protocol
 
 This project implements a multithreaded web server in C++. The server is designed to handle multiple client connections concurrently using POSIX threads. It serves static HTML files from a specified directory and provides appropriate HTTP responses, including handling 404 errors for non-existent files. (Please use your own HTML files)
 
-#### Project Structure
-I have the project directory organized as follows:
-multithreaded_web_server/
-├── CMakeLists.txt
 
-├── include/
-│   └── server.h
-
-├── src/
-│   ├── main.cpp
-│   └── server.cpp
-
-├── static/
-│   ├── index.html
-│   └── 404.html
-
-└── README.md
 
 NOTE: For macOS users using eclipse, if putting server.h in the inlcude folder does not work, keep it in .src.
 
